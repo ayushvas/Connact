@@ -1,0 +1,74 @@
+.login{
+    height: 100vh;
+    background-color: rgb(202, 153, 249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        width: 50%;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 600px;
+        overflow: hidden;
+        .left{
+            background: linear-gradient(rgba(214, 141, 229, 0.303), #c533f133), url("https://images.pexels.com/photos/16614544/pexels-photo-16614544/free-photo-of-cat-sleeping-on-table.jpeg") center;
+            background-size: cover;
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+            justify-content: center;
+            h1{
+                font-size: 75px;
+            }
+
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 50%;
+                border: none;
+                padding: 10px;
+                background-color: white;
+                color: purple;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+
+        .right{
+            padding: 50px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            h1{
+                
+                color: #555;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button{
+                    border: none;
+                    background-color: purple;
+                    color: white;
+                    cursor: pointer;
+                    width: 50%;
+                    padding: 10px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
